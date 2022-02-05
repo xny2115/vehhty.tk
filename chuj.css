@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    /* ===== tlo kolory ===== */
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color: #3a3b3c;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
+
+    /* ====== animscje ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+
+::selection{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+body.dark{
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+}
+
+.player {
+    position: absolute;
+    top: 146px;
+    left: 0px;
+  }
+  
+  /* PLAYER KILL ALL NIGGERS */
+  .player .player-video {
+    width: 250px;
+    height: 125px;
+    background: #000;
+    
+  }
+  
+  .player {
+      object-fit: fill;
+  }
+  
+  
+  
+  .player .player-controls {
+    padding: 5px;
+    background: #CCC;
+  }
+  
+  .player .player-play-button,
+  .player .player-next-button {
+    display: inline-block;
+  }
+
+  
+  /* XD KURWA CHAT */
+
+
+.nigga {
+    position: absolute;
+    top:  430px;
+    left: 70px;
+    
+  }
+  
+  .nigga .player-video {
+    width: 250px;
+    height: 175px;
+    background: #000;
+    
+  }
+  
+
+
+
+  .nigga .player-controls {
+    padding: 5px;
+    background: #CCC;
+  }
+  
+  .nigga .player-play-button,
+  .nigga .player-next-button {
+    display: inline-block;
+  }
+
+  
