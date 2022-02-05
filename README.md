@@ -1,2 +1,2 @@
 # vehhty.tk
-Ostatnio zrobilem stronke i zostalem wyruchany wiec wrzucam ja tutaj 
+Tryb telefonu rozjebany ale zmiencio po prostu rozdzielczosc i to tyle 
